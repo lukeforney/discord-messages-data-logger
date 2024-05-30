@@ -1,3 +1,5 @@
-takes a messages folder from a discord data package.zip and puts it into an excel file, to look at all the cringe things that past you said, in order
+Takes a messages folder from a discord data package.zip and puts it into an excel file, to look at all the cringe things that past you said, in order
 
-if excel gets mad at you and tells you they found a problem with some of the content, just press yes and it will work correctly
+This works on windows, I don't know about mac or linux. To use, you need to have a discord data package - you can request this data from discord by going to the discord app -> user settings -> privacy and safety -> request all of my data. This can take a while to arrive, but once it does, download and extract it to your computer. Now, download the logger.py file, move it into a new folder (name doesn't matter), then open logger.py with notepad/vscode/whatever text editor you use and replace path\to\your\messages\folder with the path to your messages folder. Once you have done that, open a cmd terminal, navigate to the folder where you downloaded logger.py, and run the command "pip install --upgrade pandas openpyxl". Once that has completed, run the command "python logger.py", and then wait until the code has completed. The excel file should appear in the same folder you put logger.py in.
+
+If excel gets mad at you and tells you they found a problem with some of the content, just press yes and it will work correctly.
